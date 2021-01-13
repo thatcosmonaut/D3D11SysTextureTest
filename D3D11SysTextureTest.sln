@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "D3D11SysTextureTest", "D3D11SysTextureTest.vcxproj", "{26CEC9AC-AD0B-42CF-BF70-BF4DF251EC8C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{33DC712E-3654-44B7-ABD5-5726C55BBE76} = {33DC712E-3654-44B7-ABD5-5726C55BBE76}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FNA3D", "..\FNA3D\visualc\FNA3D.vcxproj", "{33DC712E-3654-44B7-ABD5-5726C55BBE76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26CEC9AC-AD0B-42CF-BF70-BF4DF251EC8C}.Debug|x64.ActiveCfg = Debug|x64
+		{26CEC9AC-AD0B-42CF-BF70-BF4DF251EC8C}.Debug|x64.Build.0 = Debug|x64
+		{26CEC9AC-AD0B-42CF-BF70-BF4DF251EC8C}.Debug|x86.ActiveCfg = Debug|Win32
+		{26CEC9AC-AD0B-42CF-BF70-BF4DF251EC8C}.Debug|x86.Build.0 = Debug|Win32
+		{26CEC9AC-AD0B-42CF-BF70-BF4DF251EC8C}.Release|x64.ActiveCfg = Release|x64
+		{26CEC9AC-AD0B-42CF-BF70-BF4DF251EC8C}.Release|x64.Build.0 = Release|x64
+		{26CEC9AC-AD0B-42CF-BF70-BF4DF251EC8C}.Release|x86.ActiveCfg = Release|Win32
+		{26CEC9AC-AD0B-42CF-BF70-BF4DF251EC8C}.Release|x86.Build.0 = Release|Win32
+		{33DC712E-3654-44B7-ABD5-5726C55BBE76}.Debug|x64.ActiveCfg = Debug|x64
+		{33DC712E-3654-44B7-ABD5-5726C55BBE76}.Debug|x64.Build.0 = Debug|x64
+		{33DC712E-3654-44B7-ABD5-5726C55BBE76}.Debug|x86.ActiveCfg = Debug|Win32
+		{33DC712E-3654-44B7-ABD5-5726C55BBE76}.Debug|x86.Build.0 = Debug|Win32
+		{33DC712E-3654-44B7-ABD5-5726C55BBE76}.Release|x64.ActiveCfg = Release|x64
+		{33DC712E-3654-44B7-ABD5-5726C55BBE76}.Release|x64.Build.0 = Release|x64
+		{33DC712E-3654-44B7-ABD5-5726C55BBE76}.Release|x86.ActiveCfg = Release|Win32
+		{33DC712E-3654-44B7-ABD5-5726C55BBE76}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5664090F-FDD2-4BDB-BFD1-8F3F5881AE2E}
+	EndGlobalSection
+EndGlobal
